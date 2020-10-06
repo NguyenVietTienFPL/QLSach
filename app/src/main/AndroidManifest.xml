@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mulogo"
+        android:label="Quản Lý Sách"
+        android:roundIcon="@mipmap/mulogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.AddHoadonActivity"></activity>
+        <activity android:name=".Activity.QLHoadonActivity" />
+        <activity android:name=".Activity.AddActivity" />
+        <activity android:name=".Activity.QLSachActivity" />
+        <activity android:name=".Activity.ChangePasswordActivity" />
+        <activity android:name=".Activity.CreateAccountAcitivity" />
+        <activity android:name=".Activity.QLUserActivity" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.loginActivity"/>
+        <activity android:name=".Activity.helloActivity">
+             <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+
+             <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
